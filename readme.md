@@ -1,10 +1,10 @@
-SCSI2SD, The SCSI Hard Drive Emulator for retro computing.
+# SCSI2SD, The SCSI Hard Drive Emulator for retro computing.
 
 SCSI2SD is a modern, solid-state replacement for failed or failing single ended SCSI hard drives. 
 It allows the use of vintage computer hardware long after their mechanical drives fail. 
 The use of SD memory cards solves the problem of transferring data between the vintage computer and a modern PC.
 
-Features
+## Features
 
     In-built active terminator.
     Emulates up to 4 SCSI devices
@@ -17,7 +17,7 @@ Features
         Artificial limits on the SCSI disk size (eg. limit size to 4G to avoid OS bugs) 
         Sector size (can also be set via the SCSI MODE SELECT command, as sent by SCSI format utilities).
 
-Technical Specifications
+## Technical Specifications
 
 SCSI Interface
 	SCSI-2 Narrow 8-bit 50-pin connector. Supports asynchronous transfers only.
@@ -31,7 +31,7 @@ Power
 	5V via standard floppy-style "Berg" connector
 	USB or self-powered using the SCSI host termination power. (All V5.x variants, V5.0, V5.1, V5.2, V5.5)
 
-Performance
+## Performance
 
 As currently implemented:
 
