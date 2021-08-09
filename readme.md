@@ -45,7 +45,9 @@ As currently implemented:
 Tested with a 16GB class 10 SD card, via the commands:
 
  > WRITE TEST
+ > 
  > sudo dd bs=${SIZE} count=100 if=/dev/zero of=/dev/sdX oflag=dsync
  >
  > READ TEST
+ > 
  >sudo dd bs=${SIZE} count=100 if=/dev/sdX of=/dev/null
