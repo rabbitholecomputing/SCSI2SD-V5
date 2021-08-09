@@ -1,6 +1,8 @@
 SCSI2SD, The SCSI Hard Drive Emulator for retro computing.
 
-SCSI2SD is a modern, solid-state replacement for failed or failing single ended SCSI hard drives. It allows the use of vintage computer hardware long after their mechanical drives fail. The use of SD memory cards solves the problem of transferring data between the vintage computer and a modern PC.
+SCSI2SD is a modern, solid-state replacement for failed or failing single ended SCSI hard drives. 
+It allows the use of vintage computer hardware long after their mechanical drives fail. 
+The use of SD memory cards solves the problem of transferring data between the vintage computer and a modern PC.
 
 Features
 
