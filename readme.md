@@ -19,17 +19,17 @@ The use of SD memory cards solves the problem of transferring data between the v
 
 ## Technical Specifications
 
-SCSI Interface
-	SCSI-2 Narrow 8-bit 50-pin connector. Supports asynchronous transfers only.
-Micro SD Card Interface
-	Standard microSDSC (1GB maximum size)
-	microSDHC, microSDXC (200+ gigabytes tested)
-	Communication is via the SPI protocol at 25MHz.
-USB Interface (firmware updates and config)
-	USB 2.0 micro-B
-Power
-	5V via standard floppy-style "Berg" connector
-	USB or self-powered using the SCSI host termination power. (All V5.x variants, V5.0, V5.1, V5.2, V5.5)
+* SCSI Interface
+	* SCSI-2 Narrow 8-bit 50-pin connector. Supports asynchronous transfers only.
+* Micro SD Card Interface
+	* Standard microSDSC (1GB maximum size)
+	* microSDHC, microSDXC (200+ gigabytes tested)
+	* Communication is via the SPI protocol at 25MHz.
+*  USB Interface (firmware updates and config)
+	* USB 2.0 micro-B
+* Power
+	* 5V via standard floppy-style "Berg" connector
+	* USB or self-powered using the SCSI host termination power. (All V5.x variants, V5.0, V5.1, V5.2, V5.5)
 
 ## Performance
 
