@@ -35,17 +35,17 @@ Power
 
 As currently implemented:
 
-Transfer size:    512        2048        8192        65536
--------------------------------------------------------
-read:			2MB/s     2.1MB/s     2.5MB/s     2.6MB/s
-write:			125kB/s   441kB/s     1.5MB/s     2.3MB/s
--------------------------------------------------------
+> Transfer size:    512        2048        8192        65536
+> -------------------------------------------------------
+> read:			2MB/s     2.1MB/s     2.5MB/s     2.6MB/s
+> write:			125kB/s   441kB/s     1.5MB/s     2.3MB/s
+> -------------------------------------------------------
 
 
 Tested with a 16GB class 10 SD card, via the commands:
 
- # WRITE TEST
- sudo dd bs=${SIZE} count=100 if=/dev/zero of=/dev/sdX oflag=dsync
-
- # READ TEST
- sudo dd bs=${SIZE} count=100 if=/dev/sdX of=/dev/null
+ > WRITE TEST
+ > sudo dd bs=${SIZE} count=100 if=/dev/zero of=/dev/sdX oflag=dsync
+ >
+ > # READ TEST
+ >sudo dd bs=${SIZE} count=100 if=/dev/sdX of=/dev/null
