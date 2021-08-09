@@ -1,8 +1,7 @@
 SCSI2SD, The SCSI Hard Drive Emulator for retro computing.
 
-Traditional hard drives last 5 years*. Maybe, if you're luckly, you'll get 10 years of service from a particular drive. The lubricants wear out, the spindles
-rust. SCSI2SD is a modern replacement for failed drives. It allows the use of vintage computer hardware long after their mechanical drives fail. The use of
-SD memory cards solves the problem of transferring data between the vintage computer and a modern PC 
+Traditional hard drives last 5 years*. Maybe, if you're luckly, you'll get 10 years of service from a particular drive. The lubricants wear out, the spindles rust. SCSI2SD is a modern replacement for failed drives. It allows the use of vintage computer hardware long after their mechanical drives fail. The use of SD memory cards solves the problem of transferring data between the vintage computer and a modern PC 
+
 *All statistics are made up.
 
 
