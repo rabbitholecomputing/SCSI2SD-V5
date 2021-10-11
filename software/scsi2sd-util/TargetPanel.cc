@@ -76,7 +76,7 @@ TargetPanel::TargetPanel(wxWindow* parent, const TargetConfig& initialConfig) :
 	myNumSectorValidator(new wxIntegerValidator<uint32_t>),
 	mySizeValidator(new wxFloatingPointValidator<float>(2))
 {
-	wxFlexGridSizer *fgs = new wxFlexGridSizer(12, 3, 9, 25);
+	wxFlexGridSizer *fgs = new wxFlexGridSizer(13, 3, 9, 25);
 
 	fgs->Add(new wxStaticText(this, wxID_ANY, wxT("")));
 	myEnableCtrl =
@@ -302,11 +302,32 @@ TargetPanel::TargetPanel(wxWindow* parent, const TargetConfig& initialConfig) :
 	fgs->Add(mySerialMsg);
 	Bind(wxEVT_TEXT, &TargetPanel::onInput<wxCommandEvent>, this, ID_serialCtrl);
 
+	// New widget
+	fgs->Add(new wxStaticText(this, wxID_ANY, _("Storage Device")));
+	wxString storageTypes[] =
+	{
+		_("SD Card"),
+		_("SPI NOR Flash")
+	};
+	myStorageDevice =
+		new wxChoice(
+			this,
+			ID_storageCtrl,
+			wxDefaultPosition,
+			wxDefaultSize,
+			sizeof(storageTypes) / sizeof(wxString),
+			storageTypes
+			);
+	myStorageDevice->SetSelection(0);
+	fgs->Add(myStorageDevice);
+	fgs->Add(new wxStaticText(this, wxID_ANY, wxT("")));
+	Bind(wxEVT_CHOICE, &TargetPanel::onInput<wxCommandEvent>, this, ID_storageCtrl);
+
+	// End
 	wxBoxSizer* hbox = new wxBoxSizer(wxHORIZONTAL);
 	hbox->Add(fgs, 1, wxALL | wxEXPAND, 15);
 	this->SetSizer(hbox);
 	Centre();
-
 
 	setConfig(initialConfig);
 	evaluate();

@@ -87,7 +87,8 @@ private:
 		ID_productCtrl,
 		ID_revisionCtrl,
 		ID_serialCtrl,
-		ID_quirksCtrl
+		ID_quirksCtrl,
+		ID_storageCtrl
 	};
 
 	enum // Must match the order given to the mySizeUnitCtrl ctor.
@@ -135,6 +136,8 @@ private:
 	wxStaticText* myRevisionMsg;
 	wxTextCtrl* mySerialCtrl;
 	wxStaticText* mySerialMsg;
+
+        wxChoice* myStorageDevice;
 };
 
 } // namespace SCSI2SD
