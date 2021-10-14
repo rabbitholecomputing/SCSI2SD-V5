@@ -354,6 +354,7 @@ TargetPanel::evaluate()
 		myProductCtrl->Enable(enabled);
 		myRevisionCtrl->Enable(enabled);
 		mySerialCtrl->Enable(enabled);
+		myStorageDevice->Enable(enabled);
 	}
 
 	switch (myDeviceTypeCtrl->GetSelection())
@@ -611,6 +612,8 @@ TargetPanel::getConfig() const
 	CtrlGetFixedString(myRevisionCtrl, config.revision, sizeof(config.revision));
 	CtrlGetFixedString(mySerialCtrl, config.serial, sizeof(config.serial));
 
+	config.storageDevice = myStorageDevice->GetSelection();
+
 	return config;
 }
 
@@ -645,6 +648,8 @@ TargetPanel::setConfig(const TargetConfig& config)
 	myProductCtrl->ChangeValue(std::string(config.prodId, sizeof(config.prodId)));
 	myRevisionCtrl->ChangeValue(std::string(config.revision, sizeof(config.revision)));
 	mySerialCtrl->ChangeValue(std::string(config.serial, sizeof(config.serial)));
+
+	myStorageDevice->SetSelection(config.storageDevice);
 
 	// Set the size fields based on sector size, and evaluate inputs.
 	wxCommandEvent fakeEvent(wxEVT_NULL, ID_numSectorCtrl);
