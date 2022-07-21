@@ -760,7 +760,7 @@ static int sdReadCSD()
 		uint32 c_size =
 			((((uint32)sdDev.csd[7]) & 0x3F) << 16) |
 			(((uint32)sdDev.csd[8]) << 8) |
-			((uint32)sdDev.csd[7]);
+			((uint32)sdDev.csd[9]);
 		sdDev.capacity = (c_size + 1) * 1024;
 	}
 	else

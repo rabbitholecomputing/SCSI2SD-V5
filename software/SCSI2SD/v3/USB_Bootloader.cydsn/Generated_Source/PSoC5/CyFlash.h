@@ -1,16 +1,15 @@
-/*******************************************************************************
-* File Name: CyFlash.h
-* Version 4.20
+/***************************************************************************//**
+* \file CyFlash.h
+* \version 6.0
 *
-*  Description:
-*   Provides the function definitions for the FLASH/EEPROM.
+* \brief Provides the function definitions for the FLASH/EEPROM.
 *
-*  Note:
-*   Documentation of the API's in this file is located in the
-*   System Reference Guide provided with PSoC Creator.
+* \note Documentation of the API's in this file is located in the System
+* Reference Guide provided with PSoC Creator.
 *
 ********************************************************************************
-* Copyright 2008-2014, Cypress Semiconductor Corporation.  All rights reserved.
+* \copyright
+* Copyright 2008-2018, Cypress Semiconductor Corporation.  All rights reserved.
 * You may use this file only in accordance with the license, terms, conditions,
 * disclaimers, and limitations in the end user license agreement accompanying
 * the software package with which this file was provided.
@@ -48,7 +47,7 @@ extern uint8 dieTemperature[CY_FLASH_DIE_TEMP_DATA_SIZE];
 #endif  /* (CYDEV_ECC_ENABLE == 0) */
 #define CY_EEPROM_BASE              (CYDEV_EE_BASE)
 #define CY_EEPROM_SIZE              (CYDEV_EE_SIZE)
-#define CY_EEPROM_SIZEOF_ARRAY      (CYDEV_EEPROM_SECTOR_SIZE)
+#define CY_EEPROM_SIZEOF_ARRAY      (CYDEV_EE_SIZE)     /* EEPROM has one array */
 #define CY_EEPROM_SIZEOF_ROW        (CYDEV_EEPROM_ROW_SIZE)
 #define CY_EEPROM_NUMBER_ROWS       (CYDEV_EE_SIZE / CYDEV_EEPROM_ROW_SIZE)
 #define CY_EEPROM_NUMBER_ARRAYS     (CYDEV_EE_SIZE / CY_EEPROM_SIZEOF_ARRAY)
@@ -67,8 +66,10 @@ extern uint8 dieTemperature[CY_FLASH_DIE_TEMP_DATA_SIZE];
 /* Flash Functions */
 void     CyFlash_Start(void);
 void     CyFlash_Stop(void);
+cystatus CyFlash_EraseRow(uint8 arrayId, uint16 rowAddress);
 cystatus CySetTemp(void);
 cystatus CySetFlashEEBuffer(uint8 * buffer);
+cystatus CyFlashGetSpcAlgorithm(void);
 cystatus CyWriteRowFull(uint8 arrayId, uint16 rowNumber, const uint8 * rowData, uint16 rowSize) \
             ;
 cystatus CyWriteRowData(uint8 arrayId, uint16 rowAddress, const uint8 * rowData);
@@ -260,9 +261,9 @@ void CyEEPROM_ReadRelease(void) ;
 #define FLASH_NUMBER_ROWS           (CY_FLASH_NUMBER_ROWS)
 #define FLASH_NUMBER_SECTORS        (CY_FLASH_NUMBER_ARRAYS)
 #define EEPROM_SIZE                 (CY_EEPROM_SIZE)
-#define EEPROM_SIZEOF_SECTOR        (CY_EEPROM_SIZEOF_ARRAY)
+#define EEPROM_SIZEOF_SECTOR        (CYDEV_EEPROM_SECTOR_SIZE)
 #define EEPROM_NUMBER_ROWS          (CY_EEPROM_NUMBER_ROWS)
-#define EEPROM_NUMBER_SECTORS       (CY_EEPROM_NUMBER_ARRAYS)
+#define EEPROM_NUMBER_SECTORS       (CY_EEPROM_NUMBER_SECTORS)
 
 
 /*******************************************************************************

@@ -1,12 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.297ms
+Loading plugins phase: Elapsed time ==> 0s.301ms
 <CYPRESSTAG name="CyDsfit arguments...">
-cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -d CY8C5267AXI-LP051 -s Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -d CY8C5267AXI-LP051 -s C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 1s.524ms
+Elaboration phase: Elapsed time ==> 2s.241ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.593ms
+HDL generation phase: Elapsed time ==> 0s.048ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -23,24 +24,24 @@ HDL generation phase: Elapsed time ==> 0s.593ms
 
 ======================================================================
 Compiling:  USB_Bootloader.v
-Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 USB_Bootloader.v -verilog
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 USB_Bootloader.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  USB_Bootloader.v
-Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 USB_Bootloader.v -verilog
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 USB_Bootloader.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  USB_Bootloader.v
 Program  :   vlogfe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 -verilog USB_Bootloader.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 -verilog USB_Bootloader.v
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Sun Apr 15 21:55:47 2018
+Thu Jul 21 11:47:16 2022
 
 
 ======================================================================
@@ -50,25 +51,25 @@ Options  :    -yv2 -q10 USB_Bootloader.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Sun Apr 15 21:55:47 2018
+Thu Jul 21 11:47:17 2022
 
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
 
 vpp:  No errors.
 
 Library 'work' => directory 'lcpsoc3'
 General_symbol_table
 General_symbol_table
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Using control file 'USB_Bootloader.ctl'.
 
 vlogfe:  No errors.
@@ -77,25 +78,25 @@ vlogfe:  No errors.
 ======================================================================
 Compiling:  USB_Bootloader.v
 Program  :   tovif
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 -verilog USB_Bootloader.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 -verilog USB_Bootloader.v
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Sun Apr 15 21:55:47 2018
+Thu Jul 21 11:47:17 2022
 
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\codegentemp\USB_Bootloader.ctl'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
-Linking 'Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\codegentemp\USB_Bootloader.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\codegentemp\USB_Bootloader.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\codegentemp\USB_Bootloader.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
 
 tovif:  No errors.
 
@@ -103,47 +104,47 @@ tovif:  No errors.
 ======================================================================
 Compiling:  USB_Bootloader.v
 Program  :   topld
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 -verilog USB_Bootloader.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 -verilog USB_Bootloader.v
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Sun Apr 15 21:55:47 2018
+Thu Jul 21 11:47:17 2022
 
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\std.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cypress.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\codegentemp\USB_Bootloader.ctl'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
-Linking 'Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\codegentemp\USB_Bootloader.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\codegentemp\USB_Bootloader.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\codegentemp\USB_Bootloader.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
 
 ----------------------------------------------------------
 Detecting unused logic.
 ----------------------------------------------------------
     User names
-	\USBFS:dma_nrq_0\
-	\USBFS:Net_1800\
-	\USBFS:dma_nrq_3\
-	\USBFS:Net_1803\
-	\USBFS:Net_1801\
-	\USBFS:dma_nrq_1\
-	\USBFS:dma_nrq_4\
-	\USBFS:Net_1804\
-	\USBFS:dma_nrq_5\
-	\USBFS:Net_1805\
-	\USBFS:dma_nrq_6\
-	\USBFS:Net_1806\
-	\USBFS:dma_nrq_7\
-	\USBFS:Net_1807\
-	\USBFS:dma_nrq_2\
-	\USBFS:Net_1802\
+	\USBFS:dma_complete_0\
+	\USBFS:Net_1922\
+	\USBFS:dma_complete_1\
+	\USBFS:Net_1921\
+	\USBFS:dma_complete_2\
+	\USBFS:Net_1920\
+	\USBFS:dma_complete_3\
+	\USBFS:Net_1919\
+	\USBFS:dma_complete_4\
+	\USBFS:Net_1918\
+	\USBFS:dma_complete_5\
+	\USBFS:Net_1917\
+	\USBFS:dma_complete_6\
+	\USBFS:Net_1916\
+	\USBFS:dma_complete_7\
+	\USBFS:Net_1915\
 
 
 Deleted 16 User equations/components.
@@ -178,32 +179,32 @@ Aliasing tmpOE__LED_net_1 to \USBFS:tmpOE__Dm_net_0\
 Aliasing tmpOE__LED_net_0 to \USBFS:tmpOE__Dm_net_0\
 Aliasing tmpOE__TERM_EN_net_0 to \USBFS:tmpOE__Dm_net_0\
 Aliasing tmpOE__BOOTLDR_net_0 to \USBFS:tmpOE__Dm_net_0\
-Removing Rhs of wire one[37] = \USBFS:tmpOE__Dm_net_0\[31]
-Removing Lhs of wire \USBFS:tmpOE__Dp_net_0\[40] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_7[65] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_6[66] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_5[67] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_4[68] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_3[69] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_2[70] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_1[71] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_0[72] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_net_7[100] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_net_6[101] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_net_5[102] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_net_4[103] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_net_3[104] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_net_2[105] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_net_1[106] = one[37]
-Removing Lhs of wire tmpOE__SCSI_Out_net_0[107] = one[37]
-Removing Lhs of wire tmpOE__SD_PULLUP_net_3[135] = one[37]
-Removing Lhs of wire tmpOE__SD_PULLUP_net_2[136] = one[37]
-Removing Lhs of wire tmpOE__SD_PULLUP_net_1[137] = one[37]
-Removing Lhs of wire tmpOE__SD_PULLUP_net_0[138] = one[37]
-Removing Lhs of wire tmpOE__LED_net_1[150] = one[37]
-Removing Lhs of wire tmpOE__LED_net_0[151] = one[37]
-Removing Lhs of wire tmpOE__TERM_EN_net_0[159] = one[37]
-Removing Lhs of wire tmpOE__BOOTLDR_net_0[166] = one[37]
+Removing Rhs of wire one[9] = \USBFS:tmpOE__Dm_net_0\[3]
+Removing Lhs of wire \USBFS:tmpOE__Dp_net_0\[12] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_7[63] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_6[64] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_5[65] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_4[66] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_3[67] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_2[68] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_1[69] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_DBx_net_0[70] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_net_7[98] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_net_6[99] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_net_5[100] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_net_4[101] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_net_3[102] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_net_2[103] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_net_1[104] = one[9]
+Removing Lhs of wire tmpOE__SCSI_Out_net_0[105] = one[9]
+Removing Lhs of wire tmpOE__SD_PULLUP_net_3[133] = one[9]
+Removing Lhs of wire tmpOE__SD_PULLUP_net_2[134] = one[9]
+Removing Lhs of wire tmpOE__SD_PULLUP_net_1[135] = one[9]
+Removing Lhs of wire tmpOE__SD_PULLUP_net_0[136] = one[9]
+Removing Lhs of wire tmpOE__LED_net_1[148] = one[9]
+Removing Lhs of wire tmpOE__LED_net_0[149] = one[9]
+Removing Lhs of wire tmpOE__TERM_EN_net_0[157] = one[9]
+Removing Lhs of wire tmpOE__BOOTLDR_net_0[164] = one[9]
 
 ------------------------------------------------------
 Aliased 0 equations, 26 wires.
@@ -226,22 +227,21 @@ Circuit simplification results:
 
 topld:  No errors.
 
-CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp
-Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\bin\warp.exe
-Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 USB_Bootloader.v -verilog
+CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp
+Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -dcpsoc3 USB_Bootloader.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 1s.797ms
+Warp synthesis phase: Elapsed time ==> 1s.132ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.0.0.432, Family: PSoC3, Started at: Sunday, 15 April 2018 21:55:48
-Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=Z:\projects\SCSI2SD\git\SCSI2SD\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -d CY8C5267AXI-LP051 USB_Bootloader.v -verilog
+cyp3fit: V4.4.0.80, Family: PSoC3, Started at: Thursday, 21 July 2022 11:47:17
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Morio\Documents\SCSI2SD-V5\software\SCSI2SD\v5.1\USB_Bootloader.cydsn\USB_Bootloader.cyprj -d CY8C5267AXI-LP051 USB_Bootloader.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.046ms
+Design parsing phase: Elapsed time ==> 0s.012ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
-Assigning clock USBFS_Clock_vbus to clock BUS_CLK because it is a pass-through
 <CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
 </CYPRESSTAG>
 <CYPRESSTAG name="UDB Clock/Enable Remapping Results">
@@ -291,7 +291,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: USB_D_MINUS
+            Required Capabilities: USB_D_MINUS
             Initial Value: 0
             IO Voltage: 0
         PORT MAP (
@@ -331,8 +331,8 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: USB_D_PLUS
-            Initial Value: 0
+            Required Capabilities: USB_D_PLUS
+            Initial Value: 1
             IO Voltage: 0
         PORT MAP (
             pa_out => \USBFS:Dp(0)\__PA ,
@@ -372,7 +372,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -412,7 +412,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -452,7 +452,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -492,7 +492,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -532,7 +532,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -572,7 +572,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -612,7 +612,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -652,7 +652,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -692,7 +692,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -732,7 +732,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -772,7 +772,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -812,7 +812,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -852,7 +852,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -892,7 +892,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -932,7 +932,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -972,7 +972,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 5
         PORT MAP (
@@ -1011,7 +1011,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL, ROUTABLE
+            Required Capabilities: DIGITAL, ROUTABLE
             Initial Value: 1
             IO Voltage: 0
         PORT MAP (
@@ -1050,7 +1050,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL, ROUTABLE
+            Required Capabilities: DIGITAL, ROUTABLE
             Initial Value: 1
             IO Voltage: 0
         PORT MAP (
@@ -1089,7 +1089,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL, ROUTABLE
+            Required Capabilities: DIGITAL, ROUTABLE
             Initial Value: 1
             IO Voltage: 0
         PORT MAP (
@@ -1128,7 +1128,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL, ROUTABLE
+            Required Capabilities: DIGITAL, ROUTABLE
             Initial Value: 1
             IO Voltage: 0
         PORT MAP (
@@ -1167,7 +1167,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 1
             IO Voltage: 0
         PORT MAP (
@@ -1206,7 +1206,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 1
             IO Voltage: 0
         PORT MAP (
@@ -1245,7 +1245,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL
+            Required Capabilities: DIGITAL
             Initial Value: 0
             IO Voltage: 0
         PORT MAP (
@@ -1284,7 +1284,7 @@ Design Equations
             SIO Vtrip: MULTIPLIER_0_5
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
-            Required Capabilitites: DIGITAL, ROUTABLE
+            Required Capabilities: DIGITAL, ROUTABLE
             Initial Value: 1
             IO Voltage: 0
         PORT MAP (
@@ -1316,51 +1316,6 @@ Design Equations
     Interrupt listing
     ------------------------------------------------------------
 
-    interrupt: Name =\USBFS:ep_0\
-        PORT MAP (
-            interrupt => \USBFS:ept_int_0\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-
-    interrupt: Name =\USBFS:bus_reset\
-        PORT MAP (
-            interrupt => \USBFS:Net_81\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-
-    interrupt: Name =\USBFS:arb_int\
-        PORT MAP (
-            interrupt => \USBFS:Net_79\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-
-    interrupt: Name =\USBFS:ep_2\
-        PORT MAP (
-            interrupt => \USBFS:ept_int_2\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-
-    interrupt: Name =\USBFS:ep_1\
-        PORT MAP (
-            interrupt => \USBFS:ept_int_1\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-
     interrupt: Name =\USBFS:dp_int\
         PORT MAP (
             interrupt => \USBFS:Net_1010\ );
@@ -1370,9 +1325,54 @@ Design Equations
             is_nmi = 0
         }
 
+    interrupt: Name =\USBFS:ep_2\
+        PORT MAP (
+            interrupt => \USBFS:ep_int_2\ );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+
+    interrupt: Name =\USBFS:ep_1\
+        PORT MAP (
+            interrupt => \USBFS:ep_int_1\ );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+
+    interrupt: Name =\USBFS:ep_0\
+        PORT MAP (
+            interrupt => \USBFS:ep_int_0\ );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+
+    interrupt: Name =\USBFS:bus_reset\
+        PORT MAP (
+            interrupt => \USBFS:Net_1876\ );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+
+    interrupt: Name =\USBFS:arb_int\
+        PORT MAP (
+            interrupt => \USBFS:Net_1889\ );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+
     interrupt: Name =\USBFS:sof_int\
         PORT MAP (
-            interrupt => Net_40 );
+            interrupt => Net_114 );
         Properties:
         {
             int_type = "10"
@@ -1406,13 +1406,14 @@ UDB                           :      :      :      :
   Status Cells                :    0 :   24 :   24 :  0.00 %
   Control Cells               :    0 :   24 :   24 :  0.00 %
 Comparator                    :    0 :    2 :    2 :  0.00 %
+Delta-Sigma ADC               :    0 :    1 :    1 :  0.00 %
 LPF                           :    0 :    2 :    2 :  0.00 %
 SAR ADC                       :    0 :    1 :    1 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    0 :    1 :    1 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.438ms
-Tech Mapping phase: Elapsed time ==> 0s.563ms
+Technology Mapping: Elapsed time ==> 0s.127ms
+Tech Mapping phase: Elapsed time ==> 0s.206ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
@@ -1443,10 +1444,10 @@ IO_3@[IOP=(15)][IoId=(3)] : TERM_EN(0) (fixed)
 IO_7@[IOP=(15)][IoId=(7)] : \USBFS:Dm(0)\ (fixed)
 IO_6@[IOP=(15)][IoId=(6)] : \USBFS:Dp(0)\ (fixed)
 USB[0]@[FFB(USB,0)] : \USBFS:USB\
-Analog Placement phase: Elapsed time ==> 0s.030ms
+Analog Placement phase: Elapsed time ==> 0s.078ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
-Analog Routing phase: Elapsed time ==> 0s.000ms
+Analog Routing phase: Elapsed time ==> 0s.001ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -1461,26 +1462,26 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.578ms
+Analog Code Generation phase: Elapsed time ==> 0s.318ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
 I2659: No Constrained paths were found. The placer will run in non-timing driven mode.
-I2076: Total run-time: 0.8 sec.
+I2076: Total run-time: 0.6 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
 <CYPRESSTAG name="PLD Packing Summary">
 No PLDs were packed.
 </CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.000ms
+PLD Packing: Elapsed time ==> 0s.001ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.031ms
+Partitioning: Elapsed time ==> 0s.026ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -1525,7 +1526,7 @@ Intr container @ [IntrContainer=(0)]:
   Intr@ [IntrContainer=(0)][IntrId=(0)] 
     interrupt: Name =\USBFS:ep_1\
         PORT MAP (
-            interrupt => \USBFS:ept_int_1\ );
+            interrupt => \USBFS:ep_int_1\ );
         Properties:
         {
             int_type = "10"
@@ -1534,7 +1535,7 @@ Intr container @ [IntrContainer=(0)]:
   Intr@ [IntrContainer=(0)][IntrId=(1)] 
     interrupt: Name =\USBFS:ep_2\
         PORT MAP (
-            interrupt => \USBFS:ept_int_2\ );
+            interrupt => \USBFS:ep_int_2\ );
         Properties:
         {
             int_type = "10"
@@ -1552,7 +1553,7 @@ Intr container @ [IntrContainer=(0)]:
   Intr@ [IntrContainer=(0)][IntrId=(21)] 
     interrupt: Name =\USBFS:sof_int\
         PORT MAP (
-            interrupt => Net_40 );
+            interrupt => Net_114 );
         Properties:
         {
             int_type = "10"
@@ -1561,7 +1562,7 @@ Intr container @ [IntrContainer=(0)]:
   Intr@ [IntrContainer=(0)][IntrId=(22)] 
     interrupt: Name =\USBFS:arb_int\
         PORT MAP (
-            interrupt => \USBFS:Net_79\ );
+            interrupt => \USBFS:Net_1889\ );
         Properties:
         {
             int_type = "10"
@@ -1570,7 +1571,7 @@ Intr container @ [IntrContainer=(0)]:
   Intr@ [IntrContainer=(0)][IntrId=(23)] 
     interrupt: Name =\USBFS:bus_reset\
         PORT MAP (
-            interrupt => \USBFS:Net_81\ );
+            interrupt => \USBFS:Net_1876\ );
         Properties:
         {
             int_type = "10"
@@ -1579,7 +1580,7 @@ Intr container @ [IntrContainer=(0)]:
   Intr@ [IntrContainer=(0)][IntrId=(24)] 
     interrupt: Name =\USBFS:ep_0\
         PORT MAP (
-            interrupt => \USBFS:ept_int_0\ );
+            interrupt => \USBFS:ep_int_0\ );
         Properties:
         {
             int_type = "10"
@@ -1618,7 +1619,7 @@ Pin : Name = SCSI_Out(5)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -1659,7 +1660,7 @@ Pin : Name = SCSI_Out(4)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -1700,7 +1701,7 @@ Pin : Name = SCSI_Out(3)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -1741,7 +1742,7 @@ Pin : Name = SCSI_Out(2)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -1751,7 +1752,7 @@ Pin : Name = SCSI_Out(2)
     {
     }
 
-Port 1 is empty
+Port 1 contains the following IO cells:
 Port 2 contains the following IO cells:
 [IoId=1]: 
 Pin : Name = SCSI_Out_DBx(6)
@@ -1784,7 +1785,7 @@ Pin : Name = SCSI_Out_DBx(6)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -1825,7 +1826,7 @@ Pin : Name = SCSI_Out_DBx(5)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -1866,7 +1867,7 @@ Pin : Name = SCSI_Out_DBx(4)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -1907,7 +1908,7 @@ Pin : Name = SCSI_Out_DBx(3)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -1948,7 +1949,7 @@ Pin : Name = SD_PULLUP(0)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL, ROUTABLE
+        Required Capabilities: DIGITAL, ROUTABLE
         Initial Value: 1
         IO Voltage: 0
     PORT MAP (
@@ -1988,7 +1989,7 @@ Pin : Name = SD_PULLUP(1)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL, ROUTABLE
+        Required Capabilities: DIGITAL, ROUTABLE
         Initial Value: 1
         IO Voltage: 0
     PORT MAP (
@@ -2028,7 +2029,7 @@ Pin : Name = SD_PULLUP(2)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL, ROUTABLE
+        Required Capabilities: DIGITAL, ROUTABLE
         Initial Value: 1
         IO Voltage: 0
     PORT MAP (
@@ -2068,7 +2069,7 @@ Pin : Name = SD_PULLUP(3)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL, ROUTABLE
+        Required Capabilities: DIGITAL, ROUTABLE
         Initial Value: 1
         IO Voltage: 0
     PORT MAP (
@@ -2110,7 +2111,7 @@ Pin : Name = SCSI_Out(6)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -2151,7 +2152,7 @@ Pin : Name = SCSI_Out(1)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -2161,7 +2162,7 @@ Pin : Name = SCSI_Out(1)
     {
     }
 
-Port 5 is empty
+Port 5 contains the following IO cells:
 Port 6 contains the following IO cells:
 [IoId=2]: 
 Pin : Name = SCSI_Out(0)
@@ -2194,7 +2195,7 @@ Pin : Name = SCSI_Out(0)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -2235,7 +2236,7 @@ Pin : Name = SCSI_Out_DBx(1)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -2276,7 +2277,7 @@ Pin : Name = SCSI_Out_DBx(0)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -2317,7 +2318,7 @@ Pin : Name = LED(0)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 1
         IO Voltage: 0
     PORT MAP (
@@ -2357,7 +2358,7 @@ Pin : Name = LED(1)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 1
         IO Voltage: 0
     PORT MAP (
@@ -2398,7 +2399,7 @@ Pin : Name = SCSI_Out(7)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -2439,7 +2440,7 @@ Pin : Name = SCSI_Out_DBx(2)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -2463,7 +2464,7 @@ Port 15 generates interrupt for logical port:
             drive_mode = "000"
             ibuf_enabled = "0"
             id = "f9248435-5d3e-4e4d-bbae-bdae8795c3dd/618a72fc-5ddd-4df5-958f-a3d55102db42"
-            init_dr_st = "0"
+            init_dr_st = "1"
             input_buffer_sel = "00"
             input_clk_en = 0
             input_sync = "1"
@@ -2501,13 +2502,13 @@ Port 15 generates interrupt for logical port:
             port_alias_group = ""
             port_alias_required = 0
             sio_group_cnt = 0
-            sio_hifreq = ""
+            sio_hifreq = "00000000"
             sio_hyst = "1"
             sio_ibuf = "00000000"
             sio_info = "00"
             sio_obuf = "00000000"
             sio_refsel = "00000000"
-            sio_vohsel = ""
+            sio_vohsel = "00000000"
             sio_vtrip = "00000000"
             slew_rate = "0"
             spanning = 0
@@ -2547,7 +2548,7 @@ Pin : Name = BOOTLDR(0)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL, ROUTABLE
+        Required Capabilities: DIGITAL, ROUTABLE
         Initial Value: 1
         IO Voltage: 0
     PORT MAP (
@@ -2587,7 +2588,7 @@ Pin : Name = TERM_EN(0)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 0
     PORT MAP (
@@ -2628,7 +2629,7 @@ Pin : Name = SCSI_Out_DBx(7)
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: DIGITAL
+        Required Capabilities: DIGITAL
         Initial Value: 0
         IO Voltage: 5
     PORT MAP (
@@ -2668,8 +2669,8 @@ Pin : Name = \USBFS:Dp(0)\
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: USB_D_PLUS
-        Initial Value: 0
+        Required Capabilities: USB_D_PLUS
+        Initial Value: 1
         IO Voltage: 0
     PORT MAP (
         pa_out => \USBFS:Dp(0)\__PA ,
@@ -2709,7 +2710,7 @@ Pin : Name = \USBFS:Dm(0)\
         SIO Vtrip: MULTIPLIER_0_5
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
-        Required Capabilitites: USB_D_MINUS
+        Required Capabilities: USB_D_MINUS
         Initial Value: 0
         IO Voltage: 0
     PORT MAP (
@@ -2721,7 +2722,6 @@ Pin : Name = \USBFS:Dm(0)\
     }
 
 ARM group 0: empty
-CAN 2.0b group 0: empty
 Cache group 0: empty
 CapSense group 0: empty
 Clock group 0: 
@@ -2743,13 +2743,13 @@ Clock group 0:
         {
         }
 Comparator group 0: empty
-Digital Filter Block group 0: empty
-Delta-Sigma ADC group 0: empty
+DSM group 0: empty
 Decimator group 0: empty
 EMIF group 0: empty
 I2C group 0: empty
-Segment LCD group 0: empty
+LCD group 0: empty
 LVD group 0: empty
+PICU group 0: empty
 PM group 0: empty
 SPC group 0: empty
 Timer group 0: empty
@@ -2759,37 +2759,39 @@ USB group 0:
         PORT MAP (
             dp => \USBFS:Net_1000\ ,
             dm => \USBFS:Net_597\ ,
-            sof_int => Net_40 ,
-            arb_int => \USBFS:Net_79\ ,
-            usb_int => \USBFS:Net_81\ ,
-            ept_int_8 => \USBFS:ept_int_8\ ,
-            ept_int_7 => \USBFS:ept_int_7\ ,
-            ept_int_6 => \USBFS:ept_int_6\ ,
-            ept_int_5 => \USBFS:ept_int_5\ ,
-            ept_int_4 => \USBFS:ept_int_4\ ,
-            ept_int_3 => \USBFS:ept_int_3\ ,
-            ept_int_2 => \USBFS:ept_int_2\ ,
-            ept_int_1 => \USBFS:ept_int_1\ ,
-            ept_int_0 => \USBFS:ept_int_0\ ,
+            sof_int => Net_114 ,
+            arb_int => \USBFS:Net_1889\ ,
+            usb_int => \USBFS:Net_1876\ ,
+            ept_int_8 => \USBFS:ep_int_8\ ,
+            ept_int_7 => \USBFS:ep_int_7\ ,
+            ept_int_6 => \USBFS:ep_int_6\ ,
+            ept_int_5 => \USBFS:ep_int_5\ ,
+            ept_int_4 => \USBFS:ep_int_4\ ,
+            ept_int_3 => \USBFS:ep_int_3\ ,
+            ept_int_2 => \USBFS:ep_int_2\ ,
+            ept_int_1 => \USBFS:ep_int_1\ ,
+            ept_int_0 => \USBFS:ep_int_0\ ,
             ord_int => \USBFS:Net_95\ ,
-            dma_req_7 => \USBFS:dma_req_7\ ,
-            dma_req_6 => \USBFS:dma_req_6\ ,
-            dma_req_5 => \USBFS:dma_req_5\ ,
-            dma_req_4 => \USBFS:dma_req_4\ ,
-            dma_req_3 => \USBFS:dma_req_3\ ,
-            dma_req_2 => \USBFS:dma_req_2\ ,
-            dma_req_1 => \USBFS:dma_req_1\ ,
-            dma_req_0 => \USBFS:dma_req_0\ ,
-            dma_termin => \USBFS:Net_824\ );
+            dma_req_7 => \USBFS:dma_request_7\ ,
+            dma_req_6 => \USBFS:dma_request_6\ ,
+            dma_req_5 => \USBFS:dma_request_5\ ,
+            dma_req_4 => \USBFS:dma_request_4\ ,
+            dma_req_3 => \USBFS:dma_request_3\ ,
+            dma_req_2 => \USBFS:dma_request_2\ ,
+            dma_req_1 => \USBFS:dma_request_1\ ,
+            dma_req_0 => \USBFS:dma_request_0\ ,
+            dma_termin => \USBFS:dma_terminate\ );
         Properties:
         {
             cy_registers = ""
         }
 VIDAC group 0: empty
-CapSense Buffers group 0: empty
+CsAbuf group 0: empty
 Vref group 0: empty
 LPF group 0: empty
-SAR ADC group 0: empty
+SAR group 0: empty
+ANAIF group 0: empty
+PHUB group 0: empty
 </CYPRESSTAG>
 <CYPRESSTAG name="Port Configuration Details">
 
@@ -2835,32 +2837,33 @@ Port | Pin | Fixed |      Type |       Drive Mode |            Name | Connection
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.407ms
-Digital Placement phase: Elapsed time ==> 3s.782ms
+Digital component placer commit/Report: Elapsed time ==> 0s.101ms
+Digital Placement phase: Elapsed time ==> 1s.105ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
+"C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc5/psoc5lp/route_arch-rrg.cydata" --vh2-path "USB_Bootloader_r.vh2" --pcf-path "USB_Bootloader.pco" --des-name "USB_Bootloader" --dsf-path "USB_Bootloader.dsf" --sdc-path "USB_Bootloader.sdc" --lib-path "USB_Bootloader_r.lib"
 Routing successful.
-Digital Routing phase: Elapsed time ==> 3s.282ms
+Digital Routing phase: Elapsed time ==> 1s.478ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 26s.859ms
+Bitstream Generation phase: Elapsed time ==> 0s.271ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.046ms
+Bitstream Verification phase: Elapsed time ==> 0s.047ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in USB_Bootloader_timing.html.
-Static timing analysis phase: Elapsed time ==> 2s.501ms
+Static timing analysis phase: Elapsed time ==> 0s.334ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.406ms
+Design database save phase: Elapsed time ==> 0s.237ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 38s.580ms
+cydsfit: Elapsed time ==> 4s.172ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 38s.580ms
-API generation phase: Elapsed time ==> 21s.001ms
-Dependency generation phase: Elapsed time ==> 1s.218ms
-Cleanup phase: Elapsed time ==> 0s.145ms
+Fitter phase: Elapsed time ==> 4s.173ms
+API generation phase: Elapsed time ==> 3s.321ms
+Dependency generation phase: Elapsed time ==> 0s.019ms
+Cleanup phase: Elapsed time ==> 0s.001ms

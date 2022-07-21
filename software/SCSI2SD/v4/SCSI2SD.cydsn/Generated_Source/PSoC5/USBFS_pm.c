@@ -1,6 +1,6 @@
 /***************************************************************************//**
 * \file USBFS_pm.c
-* \version 3.10
+* \version 3.20
 *
 * \brief
 *  This file provides Suspend/Resume APIs implementation.

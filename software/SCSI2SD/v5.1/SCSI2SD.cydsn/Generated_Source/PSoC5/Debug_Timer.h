@@ -1,6 +1,6 @@
 /*******************************************************************************
 * File Name: Debug_Timer.h
-* Version 2.70
+* Version 2.80
 *
 *  Description:
 *     Contains the function prototypes and constants available to the timer
@@ -10,14 +10,14 @@
 *     None
 *
 ********************************************************************************
-* Copyright 2008-2014, Cypress Semiconductor Corporation.  All rights reserved.
+* Copyright 2008-2017, Cypress Semiconductor Corporation.  All rights reserved.
 * You may use this file only in accordance with the license, terms, conditions,
 * disclaimers, and limitations in the end user license agreement accompanying
 * the software package with which this file was provided.
 ********************************************************************************/
 
-#if !defined(CY_Timer_v2_60_Debug_Timer_H)
-#define CY_Timer_v2_60_Debug_Timer_H
+#if !defined(CY_TIMER_Debug_Timer_H)
+#define CY_TIMER_Debug_Timer_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -28,7 +28,7 @@ extern uint8 Debug_Timer_initVar;
 /* Check to see if required defines such as CY_PSOC5LP are available */
 /* They are defined starting with cy_boot v3.0 */
 #if !defined (CY_PSOC5LP)
-    #error Component Timer_v2_70 requires cy_boot v3.0 or later
+    #error Component Timer_v2_80 requires cy_boot v3.0 or later
 #endif /* (CY_ PSOC5LP) */
 
 
@@ -428,7 +428,7 @@ void Debug_Timer_Wakeup(void)        ;
 
 #endif /* Implementation Specific Registers and Register Constants */
 
-#endif  /* CY_Timer_v2_30_Debug_Timer_H */
+#endif  /* CY_TIMER_Debug_Timer_H */
 
 
 /* [] END OF FILE */

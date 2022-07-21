@@ -1,6 +1,6 @@
 /***************************************************************************//**
 * \file .h
-* \version 3.10
+* \version 3.20
 *
 * \brief
 *  This file provides private function prototypes and constants for the 
@@ -215,7 +215,8 @@ const T_USBFS_LUT CYCODE *USBFS_GetDeviceTablePtr(void)           ;
 #if (USBFS_BOS_ENABLE)
     const T_USBFS_LUT CYCODE *USBFS_GetBOSPtr(void)               ;
 #endif /* (USBFS_BOS_ENABLE) */
-const uint8 CYCODE *USBFS_GetInterfaceClassTablePtr(void)                    ;uint8 USBFS_ClearEndpointHalt(void)                                          ;
+const uint8 CYCODE *USBFS_GetInterfaceClassTablePtr(void)                    ;
+uint8 USBFS_ClearEndpointHalt(void)                                          ;
 uint8 USBFS_SetEndpointHalt(void)                                            ;
 uint8 USBFS_ValidateAlternateSetting(void)                                   ;
 
