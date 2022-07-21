@@ -25,6 +25,8 @@
 #include "USBFS_hid.h"
 #include "USBFS_midi.h"
 #include "USBFS_pvt.h"
+#include "USBFS_cydmac.h"
+#include "USBFS_msc.h"
 #include "BL.h"
 #include "BL_PVT.h"
 #include "SCSI_Out_DBx_aliases.h"
@@ -46,7 +48,6 @@
 #include "USBFS_Dp_aliases.h"
 #include "USBFS_Dp.h"
 #include "core_cm3_psoc5.h"
-#include "core_cm3.h"
 #include "CyDmac.h"
 #include "CyFlash.h"
 #include "CyLib.h"
@@ -54,8 +55,6 @@
 #include "cyPm.h"
 #include "CySpc.h"
 #include "cytypes.h"
-#include "core_cmFunc.h"
-#include "core_cmInstr.h"
 #include "cy_em_eeprom.h"
 
 /*[]*/

@@ -1,1 +1,12 @@
 *.cywrk*
+**/Backup/
+**/Export/
+**/codegentemp/
+**/CortexM3/**
+
+**/ComponentUpdateLog.txt
+**/REBUILD.log
+**/BUILD.log
+**/*.rpt
+**/*_timing.html
+**/*.cyprj.*

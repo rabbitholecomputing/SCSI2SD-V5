@@ -1,6 +1,6 @@
 /***************************************************************************//**
 * \file USBFS_drv.c
-* \version 3.10
+* \version 3.20
 *
 * \brief
 *  This file contains the Endpoint 0 Driver for the USBFS Component.  
