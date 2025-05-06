@@ -1,9 +1,12 @@
-# SCSI2SD, The SCSI Hard Drive Emulator for retro computing.
+# ZuluSCSI
 
 A note about the successor to SCSI2SD, [ZuluSCSI](https://www.ZuluSCSI.com), which is now in its third generation, with the RP2350B-based [ZuluSCSI Blaster]([https://shop.rabbitholecomputing.com/blogs/news/zuluscsi-blaster), which is far more capable and performant than either the original SCSI2SD V5, or its successor, SCSI2SD V6, both of which have now been retired permanently.
 
--- 
+---
+
 The following original readme is now more than ten years old, as is the original SCSI2SD V3/V5 design and code.
+
+# SCSI2SD, The SCSI Hard Drive Emulator for retro computing.
 
 SCSI2SD is a modern, solid-state replacement for failed or failing single ended SCSI hard drives. 
 It allows the use of vintage computer hardware long after their mechanical drives fail. 
